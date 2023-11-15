@@ -83,9 +83,13 @@ nav a {
 
 nav a:hover {
   font-size: 22px;
-  color: #2b8cee;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  color: lightblue;
+}
 
 /********************** MAIN **************/
 
@@ -175,3 +179,59 @@ nav a:hover {
   padding-left: 1rem;
   margin:0.5rem;
 }
+
+.div_itinerario {
+  background-color: bisque;
+  text-align: left;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.h2_iti{
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  font-weight: bold;
+}
+
+.div_pass{
+  padding: 1rem;
+  line-height: 25px;
+}
+
+.footer {
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+
+.adress_f {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+}
+
+.div_img {
+  position: relative;
+  left: 0;
+  width: 25%;
+}
+
+.img_f {
+  padding: 0.5rem;
+}
+
+.copyright {
+  position: absolute;
+  right: 10%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  font-size: 30px;
+  width: 25%;
+}
+
