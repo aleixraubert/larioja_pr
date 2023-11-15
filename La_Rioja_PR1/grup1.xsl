@@ -33,16 +33,16 @@
                                     <img class="foto_grup" src="{concat('./img/',informacio_general/foto)}"/> 
                                     <div class="superior">
                                         <div class="grup_preu">
-                                            <div class="grup_div"><h2 class="h2_grup"><b>Grupo Mínimo:</b> <xsl:value-of select="informacio_general/grupMin"/></h2></div>
-                                            <div class="grup_div"><h2 class="h2_grup"><b>Precio:</b> <xsl:value-of select="informacio_general/preu"/> <b>Duración:</b> <xsl:value-of select="informacio_general/dies"/></h2></div>
+                                            <div class="grup_div"><h2 class="h2_grup"><b>Grupo Mínimo: </b> <xsl:value-of select="informacio_general/grupMin"/></h2></div>
+                                            <div class="grup_div"><h2 class="h2_grup"><b>Precio: </b> <xsl:value-of select="informacio_general/preu"/> <b>Duración: </b> <xsl:value-of select="informacio_general/dies"/></h2></div>
                                         </div>
 
                                     
-                                        <div>
-                                            <h2>El viaje incluye:</h2>
+                                        <div class="div_inclou">
+                                            <div class="inclou_h2"><h2><b>El viaje incluye:</b></h2></div>
                                             <section>
                                                 <xsl:for-each select="inclos/inclou">
-                                                    <div><xsl:value-of select="."/></div>
+                                                    <div class="p_inclou"><b> - </b><xsl:value-of select="."/></div>
                                                 </xsl:for-each>
                                             </section>
                                         </div>

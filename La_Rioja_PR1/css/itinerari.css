@@ -82,7 +82,7 @@ nav a {
 }
 
 nav a:hover {
-  font-size: 25px;
+  font-size: 22px;
   color: #2b8cee;
 }
 
@@ -142,6 +142,7 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .grup_div {
@@ -155,4 +156,22 @@ nav a:hover {
 .h2_grup {
   font-size: 1.5rem;
   width:100%;
+}
+
+.div_inclou {
+  background-color: bisque;
+  text-align: left;
+  width: 100%;
+}
+
+.inclou_h2 {
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+
+.p_inclou {
+  padding-left: 1rem;
+  margin:0.5rem;
 }
