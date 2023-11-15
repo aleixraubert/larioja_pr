@@ -1,0 +1,158 @@
+/********************** ELEMENTOS GENERALES DE LA PÁGINA **************/
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1,
+h3,
+h2,
+nav a {
+  font-family: Helvetica Neue, Arial, serif;
+  font-weight: normal;
+
+}
+
+a:hover {
+  color: #7ABA96;
+
+}
+
+/********************** HEADER **************/
+
+header {
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+}
+
+div.logo {
+  width: 90px;
+  height: 75px;
+  border-radius: 10%;
+  margin-left: 10px;
+  float: left;
+
+}
+
+
+/********************** MENÚ NAVEGACIÓN **************/
+
+nav {
+  height: 3rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+  background-color: white;
+  border: 0px;
+  border-bottom-width: 0.5px;
+  border-style: solid;
+  border-color: #2b8cee;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav a {
+  font-size: 1.25em;
+  padding-bottom: 3px;
+  text-decoration: none;
+  color: #666666;
+}
+
+nav a:hover {
+  font-size: 25px;
+  color: #2b8cee;
+}
+
+
+/********************** MAIN **************/
+
+.main_art {
+  margin-left: 15%;
+  margin-right: 15%;
+  align-content: center;
+  display:flex;
+  flex-direction: column;
+}
+
+.info_tit {
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  background-color: rgb(7, 98, 151);
+  margin-bottom: 0.5rem;
+}
+
+.tot {
+  width: 100%;
+}
+
+.foto_grup {
+  width: 300px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.h1 {
+  color: white;
+  font-size: 2rem;
+  text-align: left;
+  padding-left: 1rem;
+  width:100%;
+}
+
+.div_superior {
+  display:flex;
+}
+
+.superior {
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.grup_preu {
+  background-color: rgb(7, 98, 151);
+  color: white;
+  font-size: 2rem;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.grup_div {
+  display: flex;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+
+.h2_grup {
+  font-size: 1.5rem;
+  width:100%;
+}
